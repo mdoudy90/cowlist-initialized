@@ -7,7 +7,7 @@ const app = express();
 const port = 3000;
 
 app.use(express.static('./client/dist'));
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: false })); // May neet get rid of
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => res.send('Hello World!'));

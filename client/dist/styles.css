@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-title {
+  color: rgb(0, 0, 0);
+  margin: 10px auto;
+  width: 400px;
+}
+
+.table {
+  border: 1px solid #000;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  width: 400px;
+}
+
+.table-row:first-child {
+  font-weight: bold;
+  cursor: default;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-size: 18px;
+  padding: 5px 0;
+  border-bottom: 1px solid #000;
+  cursor: pointer;
+}
+
+/* .table-row:hover {
+  background-color: rgb(231, 231, 231);
+} */
+
+.table-row-name {
+  padding: 10px;
+}
+
+.form-addcow {
+  margin: 0 auto;
+  width: 400px;
+  display: grid;
+  grid-template-columns: 100px 1fr 80px;
+  padding-bottom: 5px;
+}
+
+.form-addcow input {
+
+}
+
+.form-addcow textarea {
+  margin: 0 5px;
+}
+
+.form-addcow button {
+
+}
+
+.cow-details {
+  margin: 5px auto;
+  width: 400px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: rgb(236, 236, 236);
+}
+
+.cow-details div {
+  padding: 5px;
+}
