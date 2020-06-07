@@ -25,6 +25,4 @@ connection.query(`
   }
 });
 
-connection.end();
-
 module.exports = connection;
